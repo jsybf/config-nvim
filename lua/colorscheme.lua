@@ -40,15 +40,15 @@ local base16_black_theme = {
 }
 
 return {
-  'RRethy/base16-nvim',
-  name = 'base16-nvim',
-  lazy = false,
-  priority = 1000,
+    'RRethy/base16-nvim',
+    name = 'base16-nvim',
+    lazy = false,
+    priority = 1000,
 
    
   -- stylua: ignore
   config = function() 
-        vim.cmd('colorscheme base16-da-one-black ')
+        vim.cmd('colorscheme base16-github ')
       --require('base16-colorscheme').setup(base16_gray_theme) 
   end,
 }

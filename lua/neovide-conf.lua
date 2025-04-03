@@ -1,4 +1,4 @@
-vim.opt.linespace = -8 -- set line height
+vim.opt.linespace = -3 -- set line height
 
 vim.g.neovide_scroll_animation_length = 0.06 -- set smooth scroll delay?? 자연스러운 동작을 위해선 낮은 값 설정
 vim.g.neovide_refresh_rate = 100 -- enabled when giving --no-vsync option
